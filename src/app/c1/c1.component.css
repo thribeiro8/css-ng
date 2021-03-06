@@ -1,0 +1,14 @@
+.box {
+  background-color: green;
+}
+
+.borderRed {
+  border-color: red;
+}
+
+/* sempre que utilizar classe host,
+utilizar propriedade display: block; */
+:host {
+  border: 3px solid blue;
+  display: block;
+}
